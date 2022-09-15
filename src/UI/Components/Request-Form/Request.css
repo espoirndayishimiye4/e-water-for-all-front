@@ -1,0 +1,87 @@
+.request-form{
+    width: 100%;
+    height: fit-content;
+    background-image: linear-gradient(to right, rgba(156, 153, 143, 0.995), rgb(65, 135, 193));
+
+}
+#information{
+    padding-bottom: 30px;
+    padding-top: 10%;
+    text-align: center;
+}
+.form-control{
+    margin-left: 20%;
+    gap: 10px;
+    display: flex;
+    margin-right: 15%;
+    flex-direction: column;
+}
+#namee{
+    margin-left: -17px;
+    width: 90%;
+    border: 1px solid white;
+    background: white;
+    border-radius: 8px;
+    height: 60px;
+    font-size: 20px;
+    
+}
+#label{
+    
+    
+    padding-top: 15px;
+    font-size: 20px;
+}
+#messages{
+    margin-left: -17px;
+    border: white;
+    width: 90%;
+    background: white;
+    border-radius: 8px;
+    height: 150px;
+    font-size: 20px;
+}
+.button{
+    
+    display: flex;
+    padding-bottom: -30px;
+    flex-direction: row;
+   
+}
+#button1{
+    border-color: white;
+        margin-left: 13%;
+       margin-bottom: 150px;
+        margin-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        width: 160px;
+        height: 70px;
+        color: black;
+        font-size: 20px;
+        background-color: white;
+        border-radius: 8px;
+}
+    #button12 {
+        margin-bottom: 150px;
+        margin-top: 30px;
+        margin-left: 23%;
+        padding-left: 45px;
+        text-decoration: none;
+        padding-top: 15px;
+        width: 130px;
+        height: 60px;
+        border: none;
+        color: black;
+        font-size: 20px;
+        background-color: #CCE6F9;
+        border-radius: 8px;
+    }
+    .footer1{
+        margin-top: none;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        background: #CFE1EE; 
+        
+    }

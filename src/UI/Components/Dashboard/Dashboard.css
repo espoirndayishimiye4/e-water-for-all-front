@@ -1,0 +1,93 @@
+.main-page{
+    border-bottom: 1px solid grey;
+    width: 100vw;
+    height: auto;
+    
+}
+.progress{
+    
+    padding-top: 35px;
+    margin-left: 23%;
+    gap: 10%;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;  
+}
+#computer{
+    width: 50px;
+    height: 50px;
+}
+#progress-p{
+    width: 55%;
+    height: 80%;
+}
+.files{
+    padding-top: 50px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.two-side{
+    
+    padding-left: 80px;
+    width: 100vw;
+    height: 90vh; 
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.dash-lef-side{
+    margin-top: 35px;
+    margin-left: 50px;
+    width: 15%;
+    height: 40%;
+    background-image: linear-gradient(180deg, #36A7FA,#7EBDEB8E, #D9D9D900);
+}
+.dash-right-side{
+    margin-top: 10px;
+    width: 55%;
+    height: 35%;
+    
+}
+.content{
+    padding-top: 10px;
+    margin-top: 25px;
+    padding-left: 20px;
+    display: flex;
+    color: #000000;
+    gap: 20%;
+    flex-direction: row;
+    background-image: linear-gradient(180deg, #8EADE94D, #D9D9D900);
+}
+#imager{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.dashboard-1{
+    padding-top: 10px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#dash-link{
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
+}
+.footer-all{
+    padding-left: 12%;
+    height: 80px;
+    padding-top: 10px;
+    font-size: 24px;
+    margin-top: 10%;
+    background: #A0B5C4;
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+}
+#spanny{
+    color: white;
+}

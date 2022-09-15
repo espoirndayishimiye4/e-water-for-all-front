@@ -1,0 +1,97 @@
+
+.all-content{
+    justify-content: space-evenly;
+}
+.image-green{
+    background: url(../Images/green.png);
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+#green-para{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60%;
+    padding-bottom: 70px;
+    font-family: poppins;
+}
+.text-photos{
+    justify-content: space-between;
+    margin-left: 30px;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.text-p-text{
+    font-size: 22px;
+    justify-content: space-between;
+    min-width: fit-content;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+#picture-impact{
+    width: 40%;
+    height: 40%;
+}
+.see-all{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+#vector{
+    margin-top: -20px;
+    width: 30px;
+    height: 20px;
+    padding-left: 49%;
+}
+.box-impact{
+    min-width: fit-content;
+    
+    padding: 50px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
+.box-impact-one{
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+width: 45vw;
+font-size: 20px;
+text-align: center;
+height: 30vh;
+background: #CCE6F9;
+box-sizing: border-box;
+}
+#keep-on1{
+
+    margin-left: 50%;
+    color: black;
+    text-decoration: none;
+}
+#keep-on{
+
+    margin-left: -50%;
+    color: black;
+    text-decoration: none;
+}
+#request-icon{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 30px;
+    height: 20px; 
+}
+#icony{
+    padding: 10px;
+    width: 30px;
+    height: 20px;
+}
+.all-together{
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+}

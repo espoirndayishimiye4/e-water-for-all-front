@@ -1,0 +1,181 @@
+
+.middle-side{
+    background: url(../../Images/Tap.png);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 12%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    
+}
+#sentence{
+   padding-top: 250px;
+   min-width: fit-content;
+   font-size: 60px;
+}
+#button-explore{
+    padding-bottom: 30px;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(136, 180, 196);
+    font-size: 30px;
+    background-color: black;
+    border-radius: 8px; 
+}
+.midle-text{
+   display: flex;
+   margin-left: 30px;
+   flex-direction: row; 
+   padding: 30px;
+   min-width: fit-content;
+   justify-content: space-between;
+}
+.paragraph{
+    width: 120%;
+    margin-top: 10px;
+    font-size: 22px;
+   
+}
+.header{
+    min-width: fit-content;
+    margin-top: -15px;
+    font-size: 70px;
+    color: #36A7FA;
+}
+.midle-text-2{
+    display: flex;
+    flex-direction: row; 
+    border-radius: 4px;
+    justify-content: space-between;
+    background: #F0F4F7;
+ }
+ .battons{
+    border-radius: 10px;
+    background: #CCE6F9;
+    width: 150px;
+    height: 50px;
+    margin-left: 40%;
+ }
+ #pica{
+    width: 20px;
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 16px;
+ }
+ .buton{
+font-size: 25px;
+color: black;
+font-family: bold;
+margin-left: 28px;
+text-decoration: none;
+ height: 40px;
+ }
+ .tap2{
+    margin-left: 30px;
+    padding: 40px;
+    width: 30%;
+    height: 30%;
+
+ }
+ .paragraph2{
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 120px;
+    margin-top: 10px;
+    font-size: 23px;
+   
+}
+.company{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 48px;
+}
+.partner-box{
+display: flex;
+flex-direction: column;
+font-size: 24px;
+padding-top: 20px;
+width: 20%;
+height: 400px;
+text-align: center;
+margin-left: 89px;
+background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+.photo{
+padding-bottom: 50px;
+ margin-left: 64px;
+width: 55%;
+height: 40%;
+}
+.photo1{
+    margin-top: -20px;
+     margin-left: 20px;
+    width: 90%;
+    height: 60%;
+    }
+.partner-boxes{
+    padding: 30px;
+margin-top: 60px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.footer{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    background: #CFE1EE; 
+    margin-top: 100px;
+   
+}
+.footer-text1{
+justify-content: space-between;
+min-width: fit-content;
+display: flex;
+flex-direction: column;
+margin-top: -10px;
+
+}
+#header-footer{
+    color: #36A7FA;
+}
+#water{
+font-size: 24px;
+}
+#link{
+    cursor: pointer;
+    font-size: 19px;
+}
+.platforms{
+    cursor: pointer; 
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.footer-bottom{
+    display: flex;
+    font-size: 24px;
+    flex-direction: row;
+    gap: 17%;
+    width: 100%;
+    height: 30%;
+    background: #A0B5C4;
+}
+#foot{
+    margin-left: 13%;
+}
+#foot>span{
+    font-size: 35px;
+    color: white;
+}
+
