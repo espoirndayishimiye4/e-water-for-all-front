@@ -44,7 +44,7 @@ function Home() {
             <br/>Volutpat enim.</p>
             <div className='battons'>
             <Link to="/request" className='buton'>Request</Link>
-            <img id='pica' src={icon}/>
+            <img id='pica' src={icon} alt=""/>
             </div>
 
         </div>
