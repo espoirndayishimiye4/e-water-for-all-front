@@ -13,7 +13,7 @@ function Registration() {
   const RequestFunction = async (e) => {
     e.preventDefault();
 
-    const res = await axios.post(`http://localhost:3500/user`, {
+    const res = await axios.post(`https://e-water-for-all.herokuapp.com/user`, {
       name,
       address,
       email,

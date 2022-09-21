@@ -16,7 +16,7 @@ function Request() {
     e.preventDefault();
 
     const res = await axios.post(
-      `http://localhost:3500/message`,
+      `https://e-water-for-all.herokuapp.com/message`,
       {
         name,
         phone,
