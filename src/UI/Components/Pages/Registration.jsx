@@ -21,7 +21,10 @@ function Registration() {
     });
     if(res.data.success === true){
       navigate('/login')
-    };
+    }
+    else{
+      alert('not saved')
+    }
   };
   return (
     <div>
@@ -80,9 +83,9 @@ function Registration() {
               />
             </div>
             <div className="button-register-login">
-              <button id="buttons1"> Login</button>
+              <button id="buttons1"> Register</button>
               <Link to="/login" id="buttons">
-                Register
+                Login
               </Link>
             </div>
           </form>

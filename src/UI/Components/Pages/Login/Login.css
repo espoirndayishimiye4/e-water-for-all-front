@@ -68,12 +68,12 @@ border: none;
 #button11{
     cursor: pointer;
     margin-top: 30px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     padding-left: 23px;
     padding-bottom: 10px;
     width: 150px;
     text-decoration: none;
-    height: 40px;
+    height: 60px;
     color: #000000;
     font-size: 30px;
     background: #FFFFFF;

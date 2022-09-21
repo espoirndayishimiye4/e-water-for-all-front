@@ -19,7 +19,10 @@ function Login() {
     });
     if(res.data.success === true){
       navigate('/dashboard')
-    };
+    }
+    else{
+      alert("incorrect email or password");
+    }
   };
   return (
     <div>
