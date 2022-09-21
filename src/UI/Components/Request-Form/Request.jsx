@@ -22,18 +22,8 @@ function Request() {
         phone,
         address,
         message
-
       })
       console.log(res);
-    // let results = await fetch("https://e-water-for-all.herokuapp.com/message", {
-    //   method: "post",
-    //   body: JSON.stringify({ name, phone, address, message }),
-    //   headers: {
-    //     "content-type": "application/json",
-    //   },
-    // });
-    // results = await results.json();
-    // console.log(results);
   };
   return (
     <div>
