@@ -13,7 +13,7 @@ function Login() {
   const RequestFunction = async (e) => {
     e.preventDefault();
 
-    const res = await axios.post(`https://e-water-for-all.herokuapp.com/user/login`, {
+    const res = await axios.post(`http://localhost:3500/user/login`, {
       email,
       password,
     });

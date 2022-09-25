@@ -13,7 +13,7 @@ function Registration() {
   const RequestFunction = async (e) => {
     e.preventDefault();
 
-    const res = await axios.post(`https://e-water-for-all.herokuapp.com/user`, {
+    const res = await axios.post(`http://localhost:3500/user`, {
       name,
       address,
       email,
@@ -48,11 +48,11 @@ function Registration() {
             </div>
 
             <div className="filled-form">
-              <label id="label">Adress</label>
+              <label id="label">Address</label>
               <input
                 type="text"
                 className="Name"
-                placeholder="Adress"
+                placeholder="Address"
                 required
                 onChange={(e) => setAddress(e.target.value)}
               value={address}
