@@ -34,7 +34,7 @@ function About() {
           <div className="center-child1">
             <h1>our mission</h1>
             <p id="paragraph-in-box">
-              Pretium ornare ut turpis quis aliquet nunc. Tempor
+              Pretium ornare ut turpis quis aliquet nunc. Tempo
               <br /> purus diam netus vitae fusce tincidunt. Eget ipsum <br />
               faucibus donec placerat risus. Fames vel metus, <br />
               viverra tincidunt vitae. Egestas.
